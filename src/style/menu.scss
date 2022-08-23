@@ -1,0 +1,35 @@
+.menu {
+    margin: 18px 0 19px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .contact-phone {
+        font-weight: 700;
+        color: $primery-color;
+        font-size: $small-font-size;
+        line-height: 20px;
+
+        &__info {
+            color: $secondary-color;
+            font-size: 11px;
+            line-height: 12px;
+            overflow-wrap: break-word;
+        }
+    }
+
+    &__contact {
+        max-width: 152px;
+        width: 100%;
+    }
+}
+
+.navigation-mini {
+    background-image: url(../img/navigation-mini.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    width: 32px;
+    height: 23px;
+    background-color: #FFFFFF;
+}

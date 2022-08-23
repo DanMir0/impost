@@ -1,0 +1,25 @@
+{
+  "name": "impost",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/main.html",
+    "build": "parcel src/main.html -d docs --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanMir0/impost.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanMir0/impost/issues"
+  },
+  "homepage": "https://github.com/DanMir0/impost#readme",
+  "devDependencies": {
+    "sass": "^1.54.5"
+  }
+}

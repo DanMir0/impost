@@ -1,0 +1,20 @@
+.button {
+    width: 290px;
+    height: 46px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #FDFDFD;
+    border: none;
+
+    &--red {
+        background: #EF3525;
+    }
+
+    &--blue {
+        background: #0058A5;
+    }
+    
+    &--small {
+        width: 263px;
+    }
+}
