@@ -1,0 +1,31 @@
+.benefits {
+
+    &__group {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__group-info {
+  
+    }
+
+    &__number {
+        color: $primery-color;
+        font-weight: 600;
+        font-size: $base-font-size;
+        line-height: 24px;
+    }
+
+    &__name {
+        margin-top: 10px;
+        margin-bottom: 9px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 130px;
+        width: 100%;
+    }
+}

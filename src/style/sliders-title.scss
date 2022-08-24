@@ -1,8 +1,22 @@
 .sliders-title {
-    background-image: url(../img/sliders-title/bg-slide-1.webp);
+    background-image: url(../img/sliders_title/bg_slide_1.webp);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 60px;
+
+    &::-webkit-scrollbar {
+        width: 75px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #F2F2F2;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        border: 3px solid #F2F2F2;
+    }
 
     &__group-info {
         background: rgba(0, 0, 0, 0.6);

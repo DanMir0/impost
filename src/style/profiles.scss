@@ -1,0 +1,26 @@
+.profiles {
+
+    &-group {
+        margin-top: 30px;
+        color: black;
+        display: flex;
+        justify-content: space-around;
+        font-weight: 500;
+        font-size: $base-font-size;
+        line-height: 24px;
+    }
+
+    &__group-img {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    &__product-rehau {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__product-kbe {
+        display: none;
+    }
+}
