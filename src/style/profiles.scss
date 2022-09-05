@@ -8,6 +8,10 @@
         font-weight: 500;
         font-size: $base-font-size;
         line-height: 24px;
+
+        a {
+            color: #000000;
+        }
     }
 
     &__group-img {
