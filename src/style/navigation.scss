@@ -1,0 +1,27 @@
+.navigation {
+    margin-top: 30px;
+
+    &__unordered-list {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 23px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        height: 114px;
+        list-style: square;
+        list-style-position: inside;
+        padding-left: 2px;
+        color: $primery-color;
+
+        &__li::marker {
+            height: 8px;
+            width: 8px;
+        }
+
+        a {
+            color: #333333;
+        }
+    }
+}
