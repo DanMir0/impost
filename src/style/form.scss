@@ -1,4 +1,27 @@
 .form {
    margin-top: 15px; 
    padding-bottom: 30px;
+
+   &__label {
+      font-size: 15px;
+      color: #9C9C9C;
+      margin-bottom: 15px;
+   }
+   .input, .textarea {
+      width: 250px;
+      border-radius: 5px;
+      border: 1px solid $primery-color;
+      padding: 19px 20px;
+      color: #9C9C9C;
+      margin-top: 5px;
+      margin-bottom: 28px;
+   }
+}
+
+.input {
+   font-size: 15px;
+}
+
+.textarea {
+   font-size: 18px;
 }
