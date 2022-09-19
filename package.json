@@ -21,5 +21,8 @@
   "homepage": "https://github.com/DanMir0/impost#readme",
   "devDependencies": {
     "sass": "^1.54.5"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }
