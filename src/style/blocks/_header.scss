@@ -1,0 +1,9 @@
+.header {
+    padding: 18px 15px 19px 15px;
+}
+
+@media (max-width: 768px) {
+    .header {
+        margin: 7 0;
+    }
+}
