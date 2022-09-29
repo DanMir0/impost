@@ -1,8 +1,6 @@
 .menu {
     &__icon {
-        display: none;
-        
-        @media (max-width: 768px) {
+        @media (max-width: 1200px) {
             display: block;
             width: 32px;
             height: 20px;
@@ -44,31 +42,33 @@
     }
 
     &__body {
-        @media (max-width: 768px) {
+        display: flex;
+
+        // 768px
+        @media (max-width: 1200px) {
             position: absolute;
             top: 0;
-            right: -200%;
+            left: -100%;
             height: 100vh;
             width: 100%;
             background-color: $white;
             display: flex;
             overflow: auto;
             transition: all .2s;
-        }
-        &.active {
-            display: flex;
             flex-direction: column;
             padding: 30px;
+        }
+        &.active {
             left: 0;
         }
     }
 
     &__list {
-        list-style: none;
-        display: flex;
-        gap: 30px;
+       display: none;
 
-        @media (max-width: 768px) {
+        @media (max-width: 1200px) {
+            list-style: none;
+            display: flex;
             padding-top: 35px;
             flex-direction: column;
             gap: 33px;
@@ -88,6 +88,28 @@
             line-height: 19px;
             letter-spacing: 0.03em;
             font-weight: $base-font-weigth;
+        }
+    }
+
+    &__mobile {
+        display: none;
+        @media (max-width: 1200px) {
+            max-width: 248px;
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+    }
+
+    &__social-networks {
+        display: none;
+        @media (max-width: 1200px) {
+            max-width: 128px;
+            display: flex;
+            justify-content: space-between;
         }
     }
 }
